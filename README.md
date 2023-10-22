@@ -1,6 +1,6 @@
 <header>
    <h1>Projetos-FreeCodeCamp</h1>   
-   <img src="/img/logoIniCial.jpg" alt="Logo da web" width="500" height="300">   
+   <img src="/img/logoIniCial.jpg" alt="Logo da web" width="800" height="200">   
 </header>
 <h2>Resultado dos Projetos FreeCodeCamp</h2>
 
