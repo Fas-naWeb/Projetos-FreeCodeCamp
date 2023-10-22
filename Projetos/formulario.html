@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Projetos/formulario.html">
+    <title>Projeto Formulário</title>
+</head>
+<body>
+    <h1 id="title">Formulário de pesquisa freeCodeCamp</h1>
+    <p id="description">Obrigado por dedicar seu tempo para nos ajudar a melhorar a plataforma</p>
+   
+      <form id="survey-form">
+        <fieldset>
+        <label id="name-label" for="name">Nome
+           <input id="name" type="text" placeholder ="Digite seu nome" required>
+        </label>
+
+        <label id="email-label" for="email">E-mail
+         <input id="email" type="email" placeholder ="Digite seu email" required>
+        </label>
+
+        <label id="number-label" for="number">Idade(Opcional)
+        <input id="number" type="number" min="10" max="120" placeholder ="Idade">
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Qual opção melhor descreve sua função atual?</legend>
+        <select id="dropdown">
+            <option value="#">Selecione a função atual</option>
+            <option value"1">Estudante</option>
+            <option value"2">Trabalho em tempo Integral</option>
+            <option value"3">Aluno em Tempo Integrau</option>
+            <option value"4">Prefiro nao dizer</option>
+            <option value"5">Outro</option>
+        </select>
+       </fieldset>
+
+       <fieldset>
+        <legend>Você recomendaria o freeCodeCamp a um amigo?</legend>
+        <label for="definitivamente">
+          <input id="definitivamente" type="radio" name="name" value="Definitivamente">Definitivamente
+        </label>
+
+        <label for="talvez">
+          <input id="talvez" type="radio" name="name" value="Talvez" checked>Talvez
+        </label>
+
+        <label for="certeza">
+          <input id="certeza" type="radio" name="name" value="Não tenho certeza">Não tenho certeza
+        </label>
+       </fieldset>
+
+       <fieldset>
+       <legend>Qual é o seu recurso favorito do freeCodeCamp?</legend>
+       <select id="dropdown">
+            <option value="#">Selecione uma opção</option>
+            <option value"1">Desafios</option>
+            <option value"2">Projetos</option>
+            <option value"3">Comunidade</option>
+            <option value"4">Código aberto</option>
+        </select>
+        </fieldset>
+
+        <fieldset>
+        <legend>O que você gostaria de ver melhorado? (Marque todas as opções aplicáveis)</legend>
+        <label><input type="checkbox" value="frontend"> Projetos front-end</label>
+        <label><input type="checkbox" value="backend"> Projetos de back-end</label>
+        <label><input type="checkbox" value="dados"> Visualização de dados</label>
+        <label><input type="checkbox" value="desafios"> Desafios</label>
+        <label><input type="checkbox" value="codAberto"> comunidade de código aberto</label>
+        <label><input type="checkbox" value="gitter"> Salas de ajuda do gitter</label>
+        <label><input type="checkbox" value="video"> Vídeos</label>
+        <label><input type="checkbox" value="cidade"> Encontros a cidade</label>
+        <label><input type="checkbox" value="pedia"> Wikipédia</label>
+        <label><input type="checkbox" value="forum"> Fórum</label>
+        <label><input type="checkbox" value="cursos"> Cursos Adicionais</label>
+        </fieldset>
+
+        <fieldset>
+        <legend>Algum comentárioou sugestão</legend>
+        <textarea name="mensagem" rows="5" cols="60" placeholder="Digite seu texto aqui ....">
+        </textarea> 
+        </fieldset>
+        <button id="submit"><botton>
+        <input type="submit">
+      </form>
+</body>
+</html>
