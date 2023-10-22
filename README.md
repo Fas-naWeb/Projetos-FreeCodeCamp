@@ -1,3 +1,10 @@
+<style>
+    img{
+        width:500px;
+        height:300px;
+    }
+</style>
+
 <header>
    <h1>Projetos-FreeCodeCamp</h1>   
    <img src="/img/logoIniCial.jpg" alt="Logo da web">   
