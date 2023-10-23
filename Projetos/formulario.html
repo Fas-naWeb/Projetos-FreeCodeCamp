@@ -11,7 +11,7 @@
     <p class="fraseTitulo"><i>Obrigado por dedicar seu tempo para nos ajudar a melhorar a plataforma</i></p>
 
       <form id="container">
-        <fieldset id="fild1">
+        <fieldset class="fild1">
         <label  class="labelFild1" for="name">Nome
           <input class="inputFild1" id="name" type="text" placeholder ="Digite seu nome" required>
         </label>
@@ -25,9 +25,9 @@
         </label>
       </fieldset>
 
-      <fieldset id="fild2">
+      <fieldset class="fild2">
         <p class="description">Qual opção melhor descreve sua função atual?</p>
-        <select  id="dropdown">
+        <select>
             <option value="#">Selecione a função atual</option>
             <option value"1">Estudante</option>
             <option value"2">Trabalho em tempo Integral</option>
@@ -37,7 +37,7 @@
         </select>
       </fieldset>
 
-      <fieldset id="fild3">
+      <fieldset class="fild3">
         <p class="description">Você recomendaria o freeCodeCamp a um amigo?</p>
         <label for="definitivamente">
           <input id="definitivamente" type="radio" name="name" value="Definitivamente">Definitivamente
@@ -52,18 +52,19 @@
         </label>
       </fieldset>
 
-    <!--
-        <p class="description">Qual é o seu recurso favorito do freeCodeCamp?</p>
-       <select class="ipSize" id="dropdown">
+      <fieldsetv class="fild5">
+       <p class="description">Qual é o seu recurso favorito do freeCodeCamp?</p>
+       <select  id="dropdown">
             <option value="#">Selecione uma opção</option>
             <option value"1">Desafios</option>
             <option value"2">Projetos</option>
             <option value"3">Comunidade</option>
             <option value"4">Código aberto</option>
         </select>
+      </fieldset>
     
 
-    
+      <fieldset class="fild3">
         <p class="description">O que você gostaria de ver melhorado? (Marque todas as opções aplicáveis)</p>
         <label><input type="checkbox" value="frontend"> Projetos front-end</label>
         <label><input type="checkbox" value="backend"> Projetos de back-end</label>
@@ -76,16 +77,15 @@
         <label><input type="checkbox" value="pedia"> Wikipédia</label>
         <label><input type="checkbox" value="forum"> Fórum</label>
         <label><input type="checkbox" value="cursos"> Cursos Adicionais</label>
-    
-
-    
+      </fieldset>   
+ 
+     <fieldset id="fild4">
         <p class="description">Algum comentárioou sugestão</p>
-        <textarea class="textArea" name="mensagem" rows="8" cols="60" placeholder="Digite seu texto aqui ....">
-        </textarea> 
-    
-        <button id="submit"><botton>
-        <input type="submit">
-        -->
+        <textarea class="textArea" name="mensagem" rows="8" cols="60" placeholder="Digite seu texto aqui ...."></textarea> 
+     </fieldset>
+        <input type="submit" class="btnEviar">
+      </fieldsetv>
+      
       </form>
     
 </body>

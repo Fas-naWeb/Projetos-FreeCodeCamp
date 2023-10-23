@@ -1,5 +1,6 @@
 body{
     background-image: url("/img/survey-form-background.jpeg");
+    opacity: 80%;
 }
 
 h1,.fraseTitulo{
@@ -13,7 +14,7 @@ h1,.fraseTitulo{
 #container{
     margin: 0 auto;
     width: 700px;
-    height: auto;
+    height: 1500px;
     background-color: #272746;
     border: solid 1px;
     border-radius: 5px;
@@ -39,39 +40,84 @@ fieldset{
     font-size:16px;
 }
 
-#fild2 > p{
+.fild2 > p {
     color: white;
-    margin-left: 40px;
+    margin-left: 39px;
     font-size: 18px;
     font-weight: bolder;
     margin-bottom: 5px;
 }
-#fild2 > select{
-    margin-left: 40px;
+.fild2 > select{
+    margin-left: 39px;
     margin-bottom: 25px;
     width: 598px;
     height: 35px; 
     font-size: 16px;
 }
 
-#fild3 > p{
+.fild3 > p{
     color: white;
-    margin-left: 40px;
+    margin-left: 42px;
     font-size: 18px;
     font-weight: bold;
     margin-top: 0px;
     margin-bottom: 10px;
 }
-#fild3 > label{
+.fild3 > label{
     display: block;
     font-size: 18px;
     color: white;
-    margin-left: 40px;
+    margin-left: 35px;
 }
 input[type=radio]{
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     margin-right: 10px;
-    vertical-align:bottom;
+    margin-bottom: 10px;
+    vertical-align:middle;
 }
 
+input[type=checkbox]{
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    vertical-align:middle;
+}
+#fild4 > p{
+    font-size: 18px;
+    color: white;
+    margin-left: 40px;
+    font-weight: bold;
+}
+.textArea{
+    margin-left: 40px;
+    width: 600px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.btnEviar{
+    margin-left: 55px;
+    width: 600px;
+    height: 50px;
+    color: white;
+    background-color:#37AF65;
+}
+#dropdown{
+    margin-left: 50px;
+}
+.fild5{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.fild5 > p{
+    margin-left: 52px;
+}
+.fild5 > select{
+  width: 600px;
+  height: 30px;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
