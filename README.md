@@ -13,7 +13,27 @@ PROJETOS
 <ol>  
   <li>
     <a href ="https://github.com/Fas-naWeb/Projetos-FreeCodeCamp/blob/main/Projetos/formulario.html">
-    Formulário
+    Formulário html e Css
+    </a>
+  </li>
+  <li>
+    <a href ="https://github.com/Fas-naWeb/Projetos-FreeCodeCamp/blob/main/Projetos/boxmodel.html">
+    Box Model html e Css
+    </a>
+  </li>
+   <li>
+    <a href ="https://github.com/Fas-naWeb/Projetos-FreeCodeCamp/blob/main/Projetos/cardapio.html">
+    Cardapio html e Css
+    </a>
+  </li>
+   <li>
+    <a href ="https://github.com/Fas-naWeb/Projetos-FreeCodeCamp/blob/main/Projetos/cores.html">
+    Cores html e Css
+    </a>
+  </li>
+   <li>
+    <a href ="https://github.com/Fas-naWeb/Projetos-FreeCodeCamp/blob/main/Projetos/formularioregistro.html">
+ Formulário Registro html e Css
     </a>
   </li>
   </ol>
